@@ -2,7 +2,8 @@ html {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-size: 62.5%;
+  font-size: 62.5%;
+  /* max-width: 1440px; */
 }
 
 a {
@@ -84,9 +85,14 @@ a {
   height: 50px;
   margin-top: -4.7px;
   line-height: 1.3;
+  width: 100%;
 }
 
+/* Main Grid Section Translated to Column on Mobile for devices less than 400px*/
+
+
 }
+
 /* Mobile with width size of 400px and above */
 
 @media only screen and (max-width: 767px) {
@@ -157,11 +163,98 @@ a {
   height: 50px;
   margin-top: -4.7px;
   line-height: 1.3;
+  width: 100%;
 }
 
 .nav-mobile-2 p{
   padding: 0 1rem;
 }
+
+/* Small Phones between 401 and 767px Conversion of Grid to Cols*/
+main {
+  margin-top: 0;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main-grid .box1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  background: rgba(0,0,0,.25);
+  position: relative;
+  color: white; 
+  height: 300px;
+  width: 100%;
+  position: relative; 
+}
+
+.main-grid .box1 div {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-left: 0.5rem;
+}
+
+.main-grid .box1 img {
+  height: 100%;
+  width: 100%;
+  }
+
+  .main-grid .box1 .content-1 img {
+    display: none;
+  }
+
+.main-grid .box2 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  background: rgba(0,0,0,.25);
+  position: relative;
+  color: white; 
+  height: 300px;
+  width: 100%;
+  /* background-color: #ffdd33 ;  */
+}
+
+.main-grid .box2 img {
+height: 100%;
+width: 100%;
+}
+
+.main-grid .box2 p {
+  position: absolute;
+  bottom: 5rem;
+  margin-left: 0.8rem;
+  font-size: 1.3rem;
+  color: white;
+  }
+
+  .main-grid .box3 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    position: relative;
+    height: 300px;
+    width:100%;
+  }
+  
+  .main-grid .box3 img {
+    height: 100%;
+    width: 100%;
+  }
+  .main-grid .box3 div {
+    position: absolute;
+    top: 10rem;
+    margin-left: 0.8rem;
+    font-size: 1.3rem;
+    color: white;
+    height: 200px;
+  }
 
 }
 
@@ -191,12 +284,12 @@ a {
     height: 40px;
     justify-content: space-around;
     align-items: center;
-    background-color: darkorchid;
+    background-color: #131313;
     position: absolute;
     width: 100%;
     top:0;
     left:0px;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     font-size: 0.8rem;
   }
 
@@ -209,7 +302,7 @@ a {
   }
 
   .nav-ipad .company-info-1 {
-    /* padding-left: 50px; */
+    padding-left: 6rem;
   }
 
   .nav-ipad .company-info {
@@ -244,7 +337,6 @@ a {
     height: 45px;
     justify-content: space-between;
     align-items: center;
-    /* background-color: darkred; */
   }
 
   .nav-ipad-2 ul {
@@ -252,8 +344,6 @@ a {
     background-color: white;
     height: 45px;
     align-items: center;
-    /* margin: 10px 0; */
-    /* flex-basis: 1 1; */
   }
 
   .nav-ipad-2 .ipad-margin-lft {
@@ -274,6 +364,135 @@ a {
     height: 5rem;
     width: 8rem;
    }
+
+/* Main Grid Section For Tablets and iPhones */
+
+main {
+  margin-top: 0px;
+  }
+  
+  .main-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 300px;
+    width: 100%;
+  }
+  
+  /* Positioning Items in the grid section Main Grid */
+  .main-grid .box1 {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    background: rgba(0,0,0,.25);
+    position: relative;
+    /* margin-right: 0.2rem; */
+    color: white; 
+    height: 100%;
+    width: 99%;
+    position: relative; 
+  }
+  
+  .main-grid .box1 div {
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-grid .box1 div .date-main-grid {
+    position: absolute;
+    top: 1rem;
+    right: 1.7rem;
+    font-size: 0.8rem;
+  }
+
+  .main-grid .box1 div h2 {
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+    font-size: 1.3rem;
+  }
+
+  .main-grid .box1 div .content-2 {
+    position: absolute;
+    top: 10rem;
+    left: 3rem;
+    font-size: 1.8rem;
+    /* color: black; */
+  }
+  
+  .main-grid .box1 div .content-3 {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    font-size: 1rem;
+  }
+  
+  .main-grid .box1 div img {
+    height: 8rem;
+    width: 36%;
+    margin-left: 3rem;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+  }
+  
+  .box1 img {
+    background: rgba(0,0,0,.25);
+    height: 100%;
+    width:100%;
+    opacity: 0.6;
+  }
+  
+  .main-grid .box2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    height: 98%;
+    position: relative;
+  }
+
+  .main-grid .box2 p {
+    position: absolute;
+    top: 5rem;
+    margin-left: 0.8rem;
+    font-size: 1.3rem;
+    color: white;
+    }
+  
+  .box2 img {
+    height: 100%;
+    width:100%;
+    opacity: 0.6;
+  }
+  
+  .main-grid .box3 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    position: relative;
+  }
+  
+  .main-grid .box3 p {
+    position: absolute;
+    bottom: 5rem;
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 2rem;
+    }
+
+    .main-grid .box3 .time {
+      font-size: 1rem;
+      position: absolute;
+      bottom: 2rem;
+      margin-left: 2rem;
+     }
+
+  .box3 img {
+    background: rgba(0,0,0,.25);
+    height: 100%;
+    width:100%;
+    opacity: 0.6;
+  }
+  
 
 }
 
@@ -318,9 +537,9 @@ a {
 .ipad-nav-img {
   display: none;
 }
-/* Yellow Navigation Bar */
+/* Yellow Navigation Bar Desktop */
 
-/* Nav iPad  to Main Navigation */
+/* Nav iPad  to Main Desktop Navigation */
 
 
 .nav-ipad-2 {
@@ -357,9 +576,7 @@ a {
   background-color: #ffdd33;
   height: 50px;
   width: 100%;
-  /* margin-top: -4.7px; */
   line-height: 1.3;
-  /* padding-left: 0.9rem; */
   position: absolute;
   top: 100px;
 }
@@ -380,6 +597,134 @@ padding-left: 1.4rem;
 .nav-ipad-2 {
   position: absolute;
   top: 50px;
+}
+
+/* Main Grid Section */
+
+main {
+margin-top: 116px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 400px;
+  width: 100%;
+}
+
+/* Positioning Items in the grid section Main Grid */
+.main-grid .box1 {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  background: rgba(53, 49, 49, 0.25);
+  position: relative;
+  color: white; 
+  height: 100%;
+  width: 99%;
+  position: relative;
+}
+
+.main-grid .box1 div {
+  position: absolute;
+  top: 1.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.main-grid .box1 div .date-main-grid {
+  position: absolute;
+  top: 1.5rem;
+  right: 3rem;
+  font-size: 1rem;
+}
+
+.main-grid .box1 div h2 {
+  position: absolute;
+  top: 10rem;
+  left: 5rem;
+  font-size: 1.3rem;
+}
+
+.main-grid .box1 div .content-2 {
+  position: absolute;
+  top: 13rem;
+  left: 5rem;
+  font-size: 1.5rem;
+  /* color: white; */
+}
+
+.main-grid .box1 div .content-3 {
+  position: absolute;
+  bottom: 3rem;
+  left: 5rem;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.main-grid .box1 div img {
+  height: 8rem;
+  width: 40%;
+  margin-left: 5rem;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+}
+
+.box1 img {
+  background: rgba(0,0,0,.25);
+  height: 100%;
+  width:100%;
+  opacity: 0.6;
+}
+
+.main-grid .box2 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  position: relative;
+  height: 98%;
+}
+
+.main-grid .box2 p {
+position: absolute;
+bottom: 3rem;
+margin-left: 2rem;
+font-size: 2rem;
+color: white;
+}
+
+.box2 img {
+  height: 100%;
+  width:100%;
+  opacity: 0.6;
+}
+
+.main-grid .box3 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  position: relative;
+}
+
+.main-grid .box3 p {
+  position: absolute;
+  bottom: 7rem;
+  font-size: 2rem;
+  color: white;
+  margin-left: 2rem;
+  }
+
+.main-grid .box3 .time {
+ font-size: 1rem;
+ position: absolute;
+ bottom: 3rem;
+ margin-left: 2rem;
+}
+
+.box3 img {
+  background: rgba(0,0,0,.25);
+  height: 100%;
+  width:100%;
+  opacity: 0.6;
 }
 
 }
