@@ -180,6 +180,7 @@
         height: 100%;
         width: 100%;
       }
+
       .main-grid .box3 div {
         position: absolute;
         top: 10rem;
@@ -192,7 +193,7 @@
       .sub-section-1 {
         display: flex;
         flex-direction: column;
-        height: 2700px;
+        height: 2850px;
         position: relative;
         /* background-color: hotpink; */
       }
@@ -229,20 +230,23 @@
       }
 
       .first-flex-container {
-          height: 2640px;
-          /* background-color: green; */
+          height: 2800px;
+          background-color: green;
       }
       
       /* Latest Funding Section */
 
       .container-lt-news {
-          height: 850px;
+          height: 810px;
           width: 100%;
+          background-color: #ffdd33;
+          position: relative;
       }
       .latest-funding {
           display: flex;
           flex-direction: column;
-          height: 100px;  
+          height: 150px; 
+          width: 100%; 
           color: #f42;
           /* background-color: orange; */
           position: relative;
@@ -335,7 +339,7 @@
       .gear-container {
         display: flex;
         flex-direction: row;
-        height: 680px;
+        height: 720px;
         width: 100%;
         /* background-color: yellow; */
       }
