@@ -231,7 +231,7 @@
 
       .first-flex-container {
           height: 2800px;
-          background-color: green;
+          /* background-color: green; */
       }
       
       /* Latest Funding Section */
@@ -239,7 +239,7 @@
       .container-lt-news {
           height: 810px;
           width: 100%;
-          background-color: #ffdd33;
+          /* background-color: #fd3; */
           position: relative;
       }
       .latest-funding {
