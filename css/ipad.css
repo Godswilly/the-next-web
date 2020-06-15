@@ -1,358 +1,332 @@
-
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-    /* footer { 
-      display: none;
-    } */
-
-    @media screen and (max-width: 900px){
-      .box-a-hide {
-        display: none;
-      }
-
-      .gear-a {
-        margin: 0 10px;
-        height: auto;
-        min-width: 350px;
-        /* background-color: darkmagenta; */
-      }
-      
-    }
-
-
-    /* Display None While Working */
-
-    .ipad-nav-img {
-      position: absolute;
-      height: 5rem;
-      width: 5.5rem;
-      top: 0;
-      background-color: red;
-     z-index: 5;
-    }
-  
-    .ipad-nav-img img {
-      margin-top: 1rem;
-      margin-left: 0.45rem;
-      width: 5rem;
-    }
-  
-    .nav-ipad {
-      display: flex;
-      height: 40px;
-      justify-content: space-around;
-      align-items: center;
-      background-color: #131313;
-      position: absolute;
-      width: 100%;
-      top:0;
-      left:0px;
-      /* padding: 0 50px; */
-      font-size: 0.8rem;
-    }
-  
-    .ipad-nav {
+  @media screen and (max-width: 900px) {
+    .box-a-hide {
       display: none;
     }
-  
-    .nav-ipad ul {
-      display: flex;
-    }
-  
-    .nav-ipad .company-info-1 {
-      padding-left: 6rem;
-    }
-  
-    .nav-ipad .company-info {
-      margin-right: 1rem;
-    }
-  
-    .nav-ipad ul a {
-      margin: 0.6rem;
-    }
-  
-    .nav-mobile-2 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #ffdd33;
-      height: 50px;
-      /* margin-top: -4.7px; */
-      line-height: 1.3;
-      /* order: 2; */
-    }
-    
-    .nav-mobile-2 p {
-      padding: 0 2rem;
-    }
-  
-    .nav-mobile .mb-container img {
-      display: none;
-    }
-  
-    .nav-ipad-2 {
-      display: flex;
-      height: 45px;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    .nav-ipad-2 ul {
-      display: flex;
-      background-color: white;
-      height: 45px;
-      align-items: center;
-    }
-  
-    .nav-ipad-2 .ipad-margin-lft {
-      border-left: 1px solid lightgray;
-    }
-  
-    .nav-ipad-2 ul .hide-ipad {
-      display: none;
-    }
-  
-    .nav-ipad-2 ul li a {
-     margin: 0 1rem;
-     color: lightgray;
-    }
-  
-  
-    .nav-ipad-2 .sprint-img  {
-      height: 5rem;
-      width: 8rem;
-     }
-  
-  /* Main Grid Section For Tablets and iPhones */
-    
-    .main-grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      height: 400px;
-      width: 100%;
-    }
-    
-    /* Positioning Items in the grid section Main Grid */
-    .main-grid .box1 {
-      grid-row: 1/3;
-      grid-column: 1/2;
-      background: rgba(0,0,0,.25);
-      position: relative;
-      color: white; 
-      height: 100%;
-      width: 99%;
-      position: relative; 
-    }
-    
-    .main-grid .box1 div {
-      position: absolute;
-      top: 1rem;
-      width: 100%;
-      height: 100%;
-    }
-  
-    .main-grid .box1 div .date-main-grid {
-      position: absolute;
-      top: 1rem;
-      right: 1.7rem;
-      font-size: 0.8rem;
-    }
-  
-    .main-grid .box1 div h2 {
-      position: absolute;
-      top: 8rem;
-      left: 3rem;
-      font-size: 1.3rem;
-    }
-  
-    .main-grid .box1 div .content-2 {
-      position: absolute;
-      top: 10rem;
-      left: 3rem;
-      font-size: 1.8rem;
-      /* color: black; */
-    }
-    
-    .main-grid .box1 div .content-3 {
-      position: absolute;
-      bottom: 3rem;
-      left: 3rem;
-      font-size: 1rem;
-    }
-    
-    .main-grid .box1 div img {
-      height: 8rem;
-      width: 36%;
-      margin-left: 3rem;
-      opacity: 0.7;
-      position: absolute;
-      top: 0;
-    }
-    
-    .box1 img {
-      background: rgba(0,0,0,.25);
-      height: 100%;
-      width:100%;
-      opacity: 0.6;
-    }
-    
-    .main-grid .box2 {
-      grid-row: 1/2;
-      grid-column: 2/3;
-      height: 98%;
-      position: relative;
-    }
-  
-    .main-grid .box2 p {
-      position: absolute;
-      top: 5rem;
-      margin-left: 0.8rem;
-      font-size: 1.3rem;
-      color: white;
-      }
-    
-    .box2 img {
-      height: 100%;
-      width:100%;
-      opacity: 0.6;
-    }
-    
-    .main-grid .box3 {
-      grid-row: 2/3;
-      grid-column: 2/3;
-      position: relative;
-    }
-    
-    .main-grid .box3 p {
-      position: absolute;
-      bottom: 5rem;
-      font-size: 1.3rem;
-      color: white;
-      margin-left: 2rem;
-      }
-  
-      .main-grid .box3 .time {
-        font-size: 1rem;
-        position: absolute;
-        bottom: 2rem;
-        margin-left: 2rem;
-       }
-  
-    .box3 img {
-      background: rgba(0,0,0,.25);
-      height: 100%;
-      width:100%;
-      opacity: 0.6;
-    }
 
-    /* Sub-section Header */
-
-    .sub-section-hd {
-      display: flex;
-      align-items: center;
-      height: 70px;
-      width: 100%;
-      position: relative;
-      font-size: 2rem;
-      /* color: red; */
-    }
-
-    .sub-section-hd p {
-      margin-left: 2rem;
-    }
-  
-  
-  
-    /* First Flex Container For Tablets and IPads */
-  
-    .first-flex-container {
-      display: flex;
-      flex-wrap: wrap;
-      height: auto;
-      width: 100%;
-      /* background-color: blue; */
-    }
-
-    .flex-line-1 {
-      display: flex;
-      flex-wrap: wrap;
-      height: 100%;
-      width: 100%;
-      /* background-color: chartreuse; */
-      flex: 1;
-    }
-
-    .fl-1 {
-      width:30%;
-      /* min-width: 250; */
-      /* border: 1px solid red; */
-      margin: 10px;
-    }
-    
-    .fl-1 img {
-      width: 100%;
-      height: 70%;
-    }
-    
-    .fl-1 img:hover {
-      cursor: pointer;
-    }
-
-    .fl-1 .wr:hover {
-      cursor: pointer;
-      color: #f42;
-    }
-
-    .hr {
-      color: #333;
-    }
-    .hr span:hover {
-      cursor: pointer;
-    }
-
-    /* Latest Funding Section */
-
-    .latest-funding {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      /* background-color: cornflowerblue; */
-      padding: 0 10px;
-      box-sizing: border-box;
-      height: 50px;
-    }
-    
-    .latest-funding a {
-      color: #f42;
-    }
-
-    .latest-funding a:hover {
-      color: black;
-    }
-
-    /* ????????? */
-
-    .container-lt-news {
-      display: flex;
-      height: auto;
-      /* flex-wrap: wrap; */
-    }
-
-    .box-a {
-      height: 200px;
-      width: 100%;
-      position: relative;
+    .gear-a {
       margin: 0 10px;
+      height: auto;
+      min-width: 350px;
+    }
   }
 
-    .box-a img {
-      height: 50px;
-      width: 50px;
-      position: absolute;
-      top: 15px;
-      left: 25px;
+  /* Display None While Working */
+
+  .ipad-nav-img {
+    position: absolute;
+    height: 5rem;
+    width: 5.5rem;
+    top: 0;
+    background-color: red;
+    z-index: 5;
+  }
+
+  .ipad-nav-img img {
+    margin-top: 1rem;
+    margin-left: 0.45rem;
+    width: 5rem;
+  }
+
+  .nav-ipad {
+    display: flex;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #131313;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    font-size: 0.8rem;
+  }
+
+  .ipad-nav {
+    display: none;
+  }
+
+  .nav-ipad ul {
+    display: flex;
+  }
+
+  .nav-ipad .company-info-1 {
+    padding-left: 6rem;
+  }
+
+  .nav-ipad .company-info {
+    margin-right: 1rem;
+  }
+
+  .nav-ipad ul a {
+    margin: 0.6rem;
+  }
+
+  .nav-mobile-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffdd33;
+    height: 50px;
+    line-height: 1.3;
+  }
+
+  .nav-mobile-2 p {
+    padding: 0 2rem;
+  }
+
+  .nav-mobile .mb-container img {
+    display: none;
+  }
+
+  .nav-ipad-2 {
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-ipad-2 ul {
+    display: flex;
+    background-color: white;
+    height: 45px;
+    align-items: center;
+  }
+
+  .nav-ipad-2 .ipad-margin-lft {
+    border-left: 1px solid lightgray;
+  }
+
+  .nav-ipad-2 ul .hide-ipad {
+    display: none;
+  }
+
+  .nav-ipad-2 ul li a {
+    margin: 0 1rem;
+    color: lightgray;
+  }
+
+  .nav-ipad-2 .sprint-img {
+    height: 5rem;
+    width: 8rem;
+  }
+
+  /* Main Grid Section For Tablets and iPhones */
+
+  .main-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 400px;
+    width: 100%;
+  }
+
+  /* Positioning Items in the grid section Main Grid */
+  .main-grid .box1 {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    background: rgba(0, 0, 0, 0.25);
+    position: relative;
+    color: white;
+    height: 100%;
+    width: 99%;
+    position: relative;
+  }
+
+  .main-grid .box1 div {
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-grid .box1 div .date-main-grid {
+    position: absolute;
+    top: 1rem;
+    right: 1.7rem;
+    font-size: 0.8rem;
+  }
+
+  .main-grid .box1 div h2 {
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+    font-size: 1.3rem;
+  }
+
+  .main-grid .box1 div .content-2 {
+    position: absolute;
+    top: 10rem;
+    left: 3rem;
+    font-size: 1.8rem;
+  }
+
+  .main-grid .box1 div .content-3 {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    font-size: 1rem;
+  }
+
+  .main-grid .box1 div img {
+    height: 8rem;
+    width: 36%;
+    margin-left: 3rem;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+  }
+
+  .box1 img {
+    background: rgba(0, 0, 0, 0.25);
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+  }
+
+  .main-grid .box2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    height: 98%;
+    position: relative;
+  }
+
+  .main-grid .box2 p {
+    position: absolute;
+    top: 5rem;
+    margin-left: 0.8rem;
+    font-size: 1.3rem;
+    color: white;
+  }
+
+  .box2 img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+  }
+
+  .main-grid .box3 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    position: relative;
+  }
+
+  .main-grid .box3 p {
+    position: absolute;
+    bottom: 5rem;
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 2rem;
+  }
+
+  .main-grid .box3 .time {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    margin-left: 2rem;
+  }
+
+  .box3 img {
+    background: rgba(0, 0, 0, 0.25);
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+  }
+
+  /* Sub-section Header */
+
+  .sub-section-hd {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    font-size: 2rem;
+  }
+
+  .sub-section-hd p {
+    margin-left: 2rem;
+  }
+
+  /* First Flex Container For Tablets and IPads */
+
+  .first-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+  }
+
+  .flex-line-1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+  }
+
+  .fl-1 {
+    width: 30%;
+    margin: 10px;
+  }
+
+  .fl-1 img {
+    width: 100%;
+    height: 70%;
+  }
+
+  .fl-1 img:hover {
+    cursor: pointer;
+  }
+
+  .fl-1 .wr:hover {
+    cursor: pointer;
+    color: #f42;
+  }
+
+  .hr {
+    color: #333;
+  }
+  .hr span:hover {
+    cursor: pointer;
+  }
+
+  /* Latest Funding Section */
+
+  .latest-funding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    height: 50px;
+  }
+
+  .latest-funding a {
+    color: #f42;
+  }
+
+  .latest-funding a:hover {
+    color: black;
+  }
+
+  .container-lt-news {
+    display: flex;
+    height: auto;
+  }
+
+  .box-a {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    margin: 0 10px;
+  }
+
+  .box-a img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 15px;
+    left: 25px;
   }
 
   .box-a .fund-2 {
@@ -367,27 +341,26 @@
     padding-left: 25px;
     background-color: #fffaf8;
     border-top: 2px solid #ffebe7;
-}
+  }
   .box-a {
-      height: 200px;
-      width: 100%;
-      /* position: relative; */
-      margin: 0 10px;
+    height: 200px;
+    width: 100%;
+    margin: 0 10px;
   }
 
   .box-a h2 {
-      display: flex;
-      align-items: center;
-      height: 40px;
-      width: calc(100%-80px);
-      background-color: #f42;
-      color: white;
-      padding-left: 80px;
-      width: 100%;
-      box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: calc(100%-80px);
+    background-color: #f42;
+    color: white;
+    padding-left: 80px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
-  .box-a .fund-1{
+  .box-a .fund-1 {
     width: 100%;
     padding-left: 80px;
     background-color: #ffebe7;
@@ -395,9 +368,9 @@
   }
 
   .box-a .fund-a {
-      height: 50px;
-      width: 100%;
-      line-height: 1.4;
+    height: 50px;
+    width: 100%;
+    line-height: 1.4;
   }
 
   /* Gear Section */
@@ -414,7 +387,6 @@
     margin: 0 10px;
     height: auto;
     width: 30%;
-    /* background-color: darkmagenta; */
   }
 
   .gear-a h2 {
@@ -424,260 +396,242 @@
     height: 40px;
     font-weight: 700;
     font-size: 25px;
-    /* background-color: crimson; */
-    }
-
-    /* .latest {
-      height: auto;
-      background-color: darkmagenta;
-    } */
-
-    .gear-a .mp-1 {
-      height: 400px;
-      width: 100%;
-      position: relative;
-      /* border: 1px solid green; */
-    }
-
-    .gear-a .mp-1 div {
-      position: absolute;
-      bottom: 100px;
-      color: white;
-      padding: 10px;
-      box-sizing: border-box;
-    }
-
-    .gear-a .mp-1 div h3 {
-      font-size: 13px;
-      font-weight: 500;
-    }
-     
-    .gear-a .mp-1 div p {
-      font-size: 26px;
-      margin-bottom: 10px;
-      color: white;
-      /* background-color: darkblue; */
-    }
-    
-    .gear-a .img-gear {
-      height: 400px;
-      width: 100%;
-      border: 1px solid red;
-    }
-
-    .latest .lt-small {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 110px;
-      width: 100%;
-    }
-
-    .latest .lt-small .p-1 {
-      height: 90px;
-      width: 100%;
-      background-color: ivory;
-    }
-
-    .latest .lt-small .p-1 > * {
-      line-height: 1.5;
-    }
-
-    .latest .lt-small img {
-      height: 100px;
-      width: 100px;
-    }
-
-    .latest div ul li {
-      color: #333;
-    }
-
-    .latest div ul li:hover {
-      cursor: pointer;
-      color: black;
-    }
-
-    .p-1 p:hover {
-      text-decoration: underline;
-    }
-
-     /* How to set UL lists after browser resset */
- 
-     .latest ul {list-style: none; counter-reset: li}
- 
- 
-     .latest li::before {content: "•"; color: #f42;
-     display: inline-block; width: 10px;
-     margin-left: -8px}
-     
-     .mp-1 img {
-       width: 100%;
-       height: 400px;
-     }
- 
-     .latest {
-       height: auto;
-       width: 100%;
-       /* background-color: green; */
-     }
-     
-     .lt-deals {
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       padding: 0 10px;
-       box-sizing: border-box;
-       height: 60px;
-       width: 100%;
-       /* background-color: lightblue; */
-     }
- 
-     .lt-deals p:hover {
-       color: black;
-     }
-
-
-     /* Last Container */
-     
-		.last-fl-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      align-items: center;
-      height:100%;
-      width: 100%;
-      /* background-color: lightseagreen; */
-      padding-left: 20px;
-      box-sizing: border-box;
-    }
-    
-
-     .containers-latest-deals {
-      /* display: flex;
-      justify-content: flex-start;
-      flex-direction: column; */
-      height: auto;
-      width: 33%;
-      font-weight: 900;
-      /* background-color: lawngreen; */
-    }
-
-    .containers-latest-deals img {
-      height: 200px;
-      width: 100%;
-      padding: 10px;
-      box-sizing: border-box;
-    }
-
-    .containers-latest-deals div {
-      margin-top: 10px 10px;
-      line-height: 1.3;
-      width: 100%;
-      /* height: 350px; */
-    }
-
-    .containers-latest-deals div > * {
-      margin: 0 10px;
-    }
-
-    .containers-latest-deals h2 {
-      color: lightgray;
-    }
-
-    .containers-latest-deals div span {
-      text-decoration: line-through;
-    }
-
-    /* Footer section */
-
-    footer {
-      height: 300px;
-      width: 100%;
-    }
-
-    .ft-1 {
-      display: flex;
-      flex-direction: column;
-      height:180px;
-      justify-content: space-evenly;
-      background-color: #131313;
-    }
-
-    .ft-1a {
-      display: flex;
-      justify-content: space-around;
-      height: 45px;
-      margin: 0 35px;
-    }
-    .ft-1a .s-icon {
-      font-size: 20px;
-      color: white;
-      background-color: #333;
-      height: 40px;
-      width: 40px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 20px;      
-    }
-
-    .ft-1a .s-icon:hover {
-      background-color: black;
-      cursor: pointer;
-    }
-
-    .ft-1b {
-      display: flex;
-      justify-content: space-around;
-      height: 45px;
-      margin: 0 50px;
-      color: white;
-      font-size: 12px;
-    }
-
-    .ft-1b:hover {
-      cursor: pointer;
-    }
-
-    .bt-footer-2 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 120px;
-      width: 100%;
-      background-color: #000;
-      line-height: 1.4;
-    }
-
-    .bt-footer {
-      display: none;
-    }
-
-    .bt-footer-2 p {
-      margin: 0 65px;
-      color: #aaa;
-    }
-
-    .bt-footer-2 .red {
-     color: red;
-    }
-
-    .bt-footer-2 .ft-img-1 {
-      margin-bottom: -15px;
-      height: 40px;
-      width: 30px;
-      color: red;
-    }
-
-    .bt-footer-2 .ft-img-2 {
-      height: 10px;
-      width: 80px;
-    }
-
-
-
-
-
   }
-  
+
+  .gear-a .mp-1 {
+    height: 400px;
+    width: 100%;
+    position: relative;
+  }
+
+  .gear-a .mp-1 div {
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .gear-a .mp-1 div h3 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .gear-a .mp-1 div p {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .gear-a .img-gear {
+    height: 400px;
+    width: 100%;
+    border: 1px solid red;
+  }
+
+  .latest .lt-small {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+  }
+
+  .latest .lt-small .p-1 {
+    height: 90px;
+    width: 100%;
+    background-color: ivory;
+  }
+
+  .latest .lt-small .p-1 > * {
+    line-height: 1.5;
+  }
+
+  .latest .lt-small img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .latest div ul li {
+    color: #333;
+  }
+
+  .latest div ul li:hover {
+    cursor: pointer;
+    color: black;
+  }
+
+  .p-1 p:hover {
+    text-decoration: underline;
+  }
+
+  /* How to set UL lists after browser resset */
+
+  .latest ul {
+    list-style: none;
+    counter-reset: li;
+  }
+
+  .latest li::before {
+    content: "•";
+    color: #f42;
+    display: inline-block;
+    width: 10px;
+    margin-left: -8px;
+  }
+
+  .mp-1 img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .latest {
+    height: auto;
+    width: 100%;
+  }
+
+  .lt-deals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 100%;
+  }
+
+  .lt-deals p:hover {
+    color: black;
+  }
+
+  /* Last Container */
+
+  .last-fl-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+
+  .containers-latest-deals {
+    height: auto;
+    width: 33%;
+    font-weight: 900;
+  }
+
+  .containers-latest-deals img {
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .containers-latest-deals div {
+    margin-top: 10px 10px;
+    line-height: 1.3;
+    width: 100%;
+  }
+
+  .containers-latest-deals div > * {
+    margin: 0 10px;
+  }
+
+  .containers-latest-deals h2 {
+    color: lightgray;
+  }
+
+  .containers-latest-deals div span {
+    text-decoration: line-through;
+  }
+
+  /* Footer section */
+
+  footer {
+    height: 300px;
+    width: 100%;
+  }
+
+  .ft-1 {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-evenly;
+    background-color: #131313;
+  }
+
+  .ft-1a {
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    margin: 0 35px;
+  }
+  .ft-1a .s-icon {
+    font-size: 20px;
+    color: white;
+    background-color: #333;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .ft-1a .s-icon:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .ft-1b {
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    margin: 0 50px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .ft-1b:hover {
+    cursor: pointer;
+  }
+
+  .bt-footer-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    background-color: #000;
+    line-height: 1.4;
+  }
+
+  .bt-footer {
+    display: none;
+  }
+
+  .bt-footer-2 p {
+    margin: 0 65px;
+    color: #aaa;
+  }
+
+  .bt-footer-2 .red {
+    color: red;
+  }
+
+  .bt-footer-2 .ft-img-1 {
+    margin-bottom: -15px;
+    height: 40px;
+    width: 30px;
+    color: red;
+  }
+
+  .bt-footer-2 .ft-img-2 {
+    height: 10px;
+    width: 80px;
+  }
+}
