@@ -407,7 +407,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .gear-a {
