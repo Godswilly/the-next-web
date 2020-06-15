@@ -114,12 +114,19 @@
   .main-grid .box1 {
     grid-row: 1/3;
     grid-column: 1/2;
-    background: rgba(53, 49, 49, 0.25);
     position: relative;
     color: white;
     height: 100%;
     width: 99%;
     position: relative;
+    transition: background-color 0.4s ease;
+    background:
+      linear-gradient(
+        rgba(255, 31, 42, 0.7) 0%,
+        rgba(0, 0, 0, 0.9) 100%
+      ),
+      url("images/trump-tweets.png")
+      no-repeat;
   }
 
   .main-grid .box1 div {
@@ -179,6 +186,13 @@
     grid-column: 2/3;
     position: relative;
     height: 99%;
+    background:
+      linear-gradient(
+        rgba(255, 31, 42, 0.7) 0%,
+        rgba(0, 0, 0, 0.9) 100%
+      ),
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg")
+      no-repeat;
   }
 
   .main-grid .box2 p {
@@ -199,6 +213,13 @@
     grid-row: 2/3;
     grid-column: 2/3;
     position: relative;
+    background:
+      linear-gradient(
+        rgba(255, 31, 42, 0.7) 0%,
+        rgba(0, 0, 0, 0.9) 100%
+      ),
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/Untitled-design-66-796x417.png")
+      no-repeat;
   }
 
   .main-grid .box3 p {
@@ -235,7 +256,7 @@
   }
 
   .sub-section-hd p {
-    margin-left: 2rem;
+    margin-left: 50px;
   }
 
   /* First Flex Container For Tablets and IPads */
@@ -245,6 +266,9 @@
     flex-wrap: wrap;
     height: auto;
     width: 100%;
+    padding-right: 30px;
+    padding-left: 50px;
+    box-sizing: border-box;
   }
 
   .flex-line-1 {
@@ -287,7 +311,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 55px;
     box-sizing: border-box;
     height: 50px;
   }
@@ -303,6 +327,8 @@
   .container-lt-news {
     display: flex;
     height: auto;
+    padding: 0 47px;
+    box-sizing: border-box;
   }
 
   .box-a {
@@ -372,7 +398,7 @@
     flex-wrap: wrap;
     margin-top: 10px;
     justify-content: flex-start;
-    padding-left: 20px;
+    padding-left: 50px;
     box-sizing: border-box;
   }
 
@@ -485,7 +511,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 50px;
     box-sizing: border-box;
     height: 60px;
     width: 100%;
@@ -504,7 +530,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    padding-left: 20px;
+    padding: 0 50px;
     box-sizing: border-box;
   }
 
