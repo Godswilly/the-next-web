@@ -193,7 +193,7 @@
       .sub-section-1 {
         display: flex;
         flex-direction: column;
-        height: 2850px;
+        height: auto;
         position: relative;
         /* background-color: hotpink; */
       }
@@ -231,7 +231,7 @@
 
       .first-flex-container {
           height: auto;
-          background-color: green;
+          /* background-color: green; */
           position: relative;
       }
       
@@ -240,7 +240,7 @@
       .container-lt-news {
           height: 810px;
           width: 100%;
-          background-color: #fd3;
+          /* background-color: #fd3; */
           position: relative;
       }
       .latest-funding {
@@ -249,7 +249,7 @@
           height: 150px; 
           width: 100%; 
           color: #f42;
-          background-color: orange;
+          /* background-color: orange; */
           position: relative;
       }
       .latest-funding .see-more {

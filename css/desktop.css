@@ -257,7 +257,7 @@
     flex-wrap: wrap;
     height: auto;
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
   }
 
   .flex-line-1 {
@@ -265,14 +265,14 @@
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     flex: 1;
   }
 
   .fl-1 {
     width:22.5%;
     /* min-width: 250; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 10px;
   }
   
@@ -303,7 +303,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     padding: 0 10px;
     box-sizing: border-box;
     height: 50px;
@@ -412,7 +412,7 @@
   height: 40px;
   font-weight: 700;
   font-size: 25px;
-  background-color: crimson;
+  /* background-color: crimson; */
   }
 
   /* .latest {
@@ -424,12 +424,15 @@
     height: 400px;
     width: 100%;
     position: relative;
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
 
   .gear-a .mp-1 div {
     position: absolute;
     bottom: 100px;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
   }
 
   .gear-a .mp-1 div h3 {
@@ -440,13 +443,13 @@
   .gear-a .mp-1 div p {
     font-size: 26px;
     margin-bottom: 10px;
-    background-color: darkblue;
+    /* background-color: darkblue; */
   }
   
   .gear-a .img-gear {
     height: 400px;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .latest .lt-small {
@@ -502,7 +505,7 @@
    .latest {
      height: auto;
      width: 100%;
-     background-color: green;
+     /* background-color: green; */
    }
    
    .lt-deals {
@@ -529,7 +532,7 @@
       align-items: center;
       height:100%;
       width: 100%;
-      background-color: lightseagreen;
+      /* background-color: lightseagreen; */
       padding-left: 20px;
       box-sizing: border-box;
     }
@@ -542,7 +545,7 @@
       height: auto;
       width: 25%;
       font-weight: 900;
-      background-color: lawngreen;
+      /* background-color: lawngreen; */
     }
 
     .containers-latest-deals img {
