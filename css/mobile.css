@@ -1,6 +1,54 @@
 /* Mobile with width size of 400px and above */
 
 @media only screen and (max-width: 767px) {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Utilities */
+
+  .hd-color {
+    color: #f42;
+    font-size: 27px;
+    font-weight: 800;
+  }
+
+  .hd-color-only {
+    color: #f42;
+  }
+
+  .hd-color:hover {
+    color: black;
+  }
+
+  .nav-mobile-2 p {
+    padding: 0 1rem;
+  }
+
+  .sub-section-hd p {
+    margin-left: 10px;
+  }
+
+  .latest-funding p {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  .bt-footer p {
+    margin: 0 65px;
+    color: #aaa;
+  }
+
+  .fl-1 div p {
+    line-height: 1.5;
+  }
+
+  .containers-latest-deals p:hover {
+    cursor: pointer;
+    color: #f42;
+  }
+
   header {
     top: 0;
     position: fixed;
@@ -100,10 +148,6 @@
     line-height: 1.3;
     width: 100%;
     opacity: 1;
-  }
-
-  .nav-mobile-2 p {
-    padding: 0 1rem;
   }
 
   /* Small Phones between 401 and 767px Conversion of Grid to Cols */
@@ -208,24 +252,6 @@
     color: white;
     height: 300px;
     width: 100%;
-  }
-
-  .sub-section-hd p {
-    margin-left: 10px;
-  }
-
-  .latest-funding p {
-    font-size: 30px;
-    margin-left: 10px;
-  }
-
-  .bt-footer p {
-    margin: 0 65px;
-    color: #aaa;
-  }
-
-  .fl-1 div p {
-    line-height: 1.5;
   }
 
   .main-grid .box2 p {

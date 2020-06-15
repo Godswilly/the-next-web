@@ -11,6 +11,45 @@
     }
   }
 
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Utilities */
+
+  .hd-color {
+    color: #f42;
+    font-size: 27px;
+    font-weight: 800;
+  }
+
+  .hd-color-only {
+    color: #f42;
+  }
+
+  .hd-color:hover {
+    color: black;
+  }
+
+  .nav-mobile-2 p {
+    padding: 0 2rem;
+  }
+
+  .sub-section-hd p {
+    margin-left: 2rem;
+  }
+
+  .bt-footer-2 p {
+    margin: 0 65px;
+    color: #aaa;
+  }
+
+  .containers-latest-deals p:hover {
+    cursor: pointer;
+    color: #f42;
+  }
+
   /* Display None While Working */
 
   .ipad-nav-img {
@@ -72,10 +111,6 @@
     background-color: #fd3;
     height: 50px;
     line-height: 1.3;
-  }
-
-  .nav-mobile-2 p {
-    padding: 0 2rem;
   }
 
   .box1 img {
@@ -282,15 +317,6 @@
       ),
       url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg")
       no-repeat;
-  }
-
-  .sub-section-hd p {
-    margin-left: 2rem;
-  }
-
-  .bt-footer-2 p {
-    margin: 0 65px;
-    color: #aaa;
   }
 
   .main-grid .box2 p {

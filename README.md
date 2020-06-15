@@ -6,7 +6,7 @@ PROJECT: BUILDING WITH RESPONSIVE DESIGN
 <br>
 In this project, our main aim was to learn how to build a responsive website with media queries, flexbox, grid and float. The website is responsive on different screen sizes, such as mobile, tablet and desktop.
 
-Project Design Screenshot : ![Project Design](images/project-design.JPG)
+Project Design Screenshot : ![Project Design](images/thenextweb-project.JPG)
 
 
 ## Built With
