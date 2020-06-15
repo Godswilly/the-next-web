@@ -3,13 +3,11 @@
 
 /* Mobile with width size less than 401px */
 
-@media only screen and  (max-width: 400px) {
+/* @media only screen and  (max-width: 400px) {
 
 .ipad-nav-img {
   display: none;
 }
-
-
 
 .nav-ipad {
   display: none;
@@ -66,7 +64,7 @@
 }
 
 .nav-mobile-2 {
-  display: flex;
+display: flex;
   align-items: center;
   justify-content: center;
   background-color: #ffdd33;
@@ -76,5 +74,4 @@
   width: 100%;
 }
 
-} 
-
+}  */

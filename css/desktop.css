@@ -37,13 +37,21 @@
     padding-left: 0.5rem;
   }
 
-  .nav-ipad ul a {
-    margin: 1rem;
+  .reg-button a {
+    background-color: #0cc;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: white;
   }
 
-  .nav-mobile .mb-container img {
-    opacity: 0;
-    height: 0px;
+  .latest-funding a {
+    color: #f42;
+  }
+
+  .nav-ipad ul a {
+    margin: 1rem;
   }
 
   .ipad-nav-img {
@@ -71,7 +79,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: #ffdd33;
+    background-color: #fd3;
     height: 50px;
     width: 100%;
     line-height: 1.3;
@@ -84,15 +92,6 @@
 
   .nav-mobile-2 p {
     padding-left: 1.4rem;
-  }
-
-  .reg-button a {
-    background-color: #0cc;
-    padding: 0.4rem;
-    border-radius: 0.5rem;
-    font-weight: 600;
-    font-size: 0.8rem;
-    color: white;
   }
 
   /* Main Grid Section */
@@ -118,7 +117,6 @@
     color: white;
     height: 100%;
     width: 99%;
-    position: relative;
     transition: background-color 0.4s ease;
     background:
       linear-gradient(
@@ -127,6 +125,12 @@
       ),
       url("images/trump-tweets.png")
       no-repeat;
+  }
+
+  .containers-latest-deals div {
+    margin-top: 10px;
+    line-height: 1.3;
+    width: 100%;
   }
 
   .main-grid .box1 div {
@@ -141,6 +145,30 @@
     top: 1.5rem;
     right: 3rem;
     font-size: 1rem;
+  }
+
+  .box-a h2 {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #f42;
+    color: white;
+    padding-left: 80px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .gear-a h2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  .containers-latest-deals h2 {
+    color: lightgray;
   }
 
   .main-grid .box1 div h2 {
@@ -165,6 +193,60 @@
     line-height: 1;
   }
 
+  .box1 img {
+    background: rgba(0, 0, 0, 0.25);
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+  }
+
+  .box3 img {
+    background: rgba(0, 0, 0, 0.25);
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+  }
+
+  .box2 img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+  }
+
+  .fl-1 img {
+    width: 100%;
+    height: 70%;
+  }
+
+  .box-a img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+  }
+
+  .mp-1 img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .containers-latest-deals img {
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .fl-1 img:hover {
+    cursor: pointer;
+  }
+
+  .latest .lt-small img {
+    height: 100px;
+    width: 100px;
+  }
+
   .main-grid .box1 div img {
     height: 8rem;
     width: 40%;
@@ -172,13 +254,6 @@
     opacity: 0.7;
     position: absolute;
     top: 0;
-  }
-
-  .box1 img {
-    background: rgba(0, 0, 0, 0.25);
-    height: 100%;
-    width: 100%;
-    opacity: 0.6;
   }
 
   .main-grid .box2 {
@@ -195,18 +270,21 @@
       no-repeat;
   }
 
+  .sub-section-hd p {
+    margin-left: 50px;
+  }
+
+  .bt-footer-2 p {
+    margin: 0 65px;
+    color: #aaa;
+  }
+
   .main-grid .box2 p {
     position: absolute;
     bottom: 3rem;
     margin-left: 2rem;
     font-size: 2rem;
     color: white;
-  }
-
-  .box2 img {
-    height: 100%;
-    width: 100%;
-    opacity: 0.6;
   }
 
   .main-grid .box3 {
@@ -237,13 +315,6 @@
     margin-left: 2rem;
   }
 
-  .box3 img {
-    background: rgba(0, 0, 0, 0.25);
-    height: 100%;
-    width: 100%;
-    opacity: 0.6;
-  }
-
   /* First Flex Container For Large Screens and Sub-section Header  */
 
   .sub-section-hd {
@@ -253,10 +324,6 @@
     width: 100%;
     position: relative;
     font-size: 2rem;
-  }
-
-  .sub-section-hd p {
-    margin-left: 50px;
   }
 
   /* First Flex Container For Tablets and IPads */
@@ -284,15 +351,6 @@
     margin: 10px;
   }
 
-  .fl-1 img {
-    width: 100%;
-    height: 70%;
-  }
-
-  .fl-1 img:hover {
-    cursor: pointer;
-  }
-
   .fl-1 .wr:hover {
     cursor: pointer;
     color: #f42;
@@ -301,6 +359,11 @@
   .hr {
     color: #333;
   }
+
+  .containers-latest-deals div span {
+    text-decoration: line-through;
+  }
+
   .hr span:hover {
     cursor: pointer;
   }
@@ -314,10 +377,6 @@
     padding: 0 55px;
     box-sizing: border-box;
     height: 50px;
-  }
-
-  .latest-funding a {
-    color: #f42;
   }
 
   .latest-funding a:hover {
@@ -338,14 +397,6 @@
     margin: 0 10px;
   }
 
-  .box-a img {
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    top: 15px;
-    left: 25px;
-  }
-
   .box-a .fund-2 {
     width: 100%;
     box-sizing: border-box;
@@ -358,22 +409,6 @@
     padding-left: 25px;
     background-color: #fffaf8;
     border-top: 2px solid #ffebe7;
-  }
-  .box-a {
-    height: 200px;
-    width: 100%;
-    margin: 0 10px;
-  }
-
-  .box-a h2 {
-    display: flex;
-    align-items: center;
-    height: 40px;
-    background-color: #f42;
-    color: white;
-    padding-left: 80px;
-    width: 100%;
-    box-sizing: border-box;
   }
 
   .box-a .fund-1 {
@@ -407,15 +442,6 @@
     width: 30%;
   }
 
-  .gear-a h2 {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 40px;
-    font-weight: 700;
-    font-size: 25px;
-  }
-
   .gear-a .mp-1 {
     height: 400px;
     width: 100%;
@@ -433,6 +459,14 @@
   .gear-a .mp-1 div h3 {
     font-size: 13px;
     font-weight: 500;
+  }
+
+  .p-1 p:hover {
+    text-decoration: underline;
+  }
+
+  .lt-deals p:hover {
+    color: black;
   }
 
   .gear-a .mp-1 div p {
@@ -459,13 +493,16 @@
     background-color: ivory;
   }
 
+  .containers-latest-deals div > * {
+    margin: 0 10px;
+  }
+
   .latest .lt-small .p-1 > * {
     line-height: 1.5;
   }
 
-  .latest .lt-small img {
-    height: 100px;
-    width: 100px;
+  .ft-1b li {
+    margin: 10px;
   }
 
   .latest div ul li {
@@ -475,10 +512,6 @@
   .latest div ul li:hover {
     cursor: pointer;
     color: black;
-  }
-
-  .p-1 p:hover {
-    text-decoration: underline;
   }
 
   /* How to set UL lists after browser resset */
@@ -496,11 +529,6 @@
     margin-left: -8px;
   }
 
-  .mp-1 img {
-    width: 100%;
-    height: 400px;
-  }
-
   .latest {
     height: auto;
     width: 100%;
@@ -514,10 +542,6 @@
     box-sizing: border-box;
     height: 60px;
     width: 100%;
-  }
-
-  .lt-deals p:hover {
-    color: black;
   }
 
   /* Last Container */
@@ -537,31 +561,6 @@
     height: auto;
     width: 25%;
     font-weight: 900;
-  }
-
-  .containers-latest-deals img {
-    height: 200px;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-
-  .containers-latest-deals div {
-    margin-top: 10px;
-    line-height: 1.3;
-    width: 100%;
-  }
-
-  .containers-latest-deals div > * {
-    margin: 0 10px;
-  }
-
-  .containers-latest-deals h2 {
-    color: lightgray;
-  }
-
-  .containers-latest-deals div span {
-    text-decoration: line-through;
   }
 
   /* Footer section */
@@ -586,6 +585,7 @@
     height: 45px;
     margin: 0 35px;
   }
+
   .ft-1a .s-icon {
     font-size: 20px;
     color: white;
@@ -613,10 +613,6 @@
     font-size: 12px;
   }
 
-  .ft-1b li {
-    margin: 10px;
-  }
-
   .ft-1b:hover {
     cursor: pointer;
   }
@@ -634,11 +630,6 @@
 
   .bt-footer {
     display: none;
-  }
-
-  .bt-footer-2 p {
-    margin: 0 65px;
-    color: #aaa;
   }
 
   .bt-footer-2 .red {
