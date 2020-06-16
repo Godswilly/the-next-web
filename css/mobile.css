@@ -68,6 +68,14 @@
     right: 0;
   }
 
+  .fl-1 a {
+    color: black;
+  }
+
+  .latest-funding p a {
+    color: red;
+  }
+
   .mb-container ul li a {
     margin: 0 1rem;
     border-left: 1px solid #d3d3d3;
@@ -124,6 +132,11 @@
     width: 100%;
   }
 
+  .containers-latest-deals div {
+    margin-top: 10px;
+    line-height: 1.3;
+  }
+
   .main-grid .box1 div {
     position: absolute;
     top: 0;
@@ -158,9 +171,49 @@
     color: lightgray;
   }
 
+  .fl-1 img {
+    height: 75px;
+    width: 75px;
+    margin-right: 10px;
+  }
+
+  .box-a img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+  }
+
+  .mp-1 img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .containers-latest-deals img {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+  }
+
   .main-grid .box1 img {
     height: 100%;
     width: 100%;
+  }
+
+  .main-grid .box2 img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .main-grid .box3 img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .latest .lt-small img {
+    height: 100px;
+    width: 100px;
   }
 
   .main-grid .box1 .content-1 img {
@@ -177,9 +230,22 @@
     width: 100%;
   }
 
-  .main-grid .box2 img {
-    height: 100%;
-    width: 100%;
+  .sub-section-hd p {
+    margin-left: 10px;
+  }
+
+  .latest-funding p {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  .bt-footer-2 p {
+    margin: 0 65px;
+    color: #aaa;
+  }
+
+  .fl-1 div p {
+    line-height: 1.5;
   }
 
   .main-grid .box2 p {
@@ -195,11 +261,6 @@
     grid-column: 1/2;
     position: relative;
     height: 200px;
-    width: 100%;
-  }
-
-  .main-grid .box3 img {
-    height: 100%;
     width: 100%;
   }
 
@@ -225,7 +286,6 @@
     font-size: 1.3rem;
     color: white;
     height: 100%;
-    /* border: 2px solid red; */
   }
 
   .sub-section-1 {
@@ -241,10 +301,6 @@
     height: 70px;
   }
 
-  .sub-section-hd p {
-    margin-left: 10px;
-  }
-
   .fl-1 {
     display: flex;
     justify-content: flex-start;
@@ -253,12 +309,6 @@
 
   .flex-line-1 {
     margin: 0 10px;
-  }
-
-  .fl-1 img {
-    height: 75px;
-    width: 75px;
-    margin-right: 10px;
   }
 
   .fl-1 div .wr:hover {
@@ -271,26 +321,16 @@
     color: lightgray;
   }
 
+  .latest-funding p span {
+    display: none;
+  }
+
+  .containers-latest-deals div span {
+    text-decoration: line-through;
+  }
+
   .fl-1 div .hr span:hover {
     cursor: pointer;
-  }
-
-  .fl-1 a {
-    color: black;
-  }
-
-  /* .fl-1 img,
-  .fl-1 div {
-    width: 100%;
-    margin: 5px;
-  } */
-
-  /* .fl-1 img {
-    height: 250px;
-  } */
-
-  .fl-1 div p {
-    line-height: 1.5;
   }
 
   .first-flex-container {
@@ -320,15 +360,6 @@
     flex-direction: column;
   }
 
-  .latest-funding p {
-    font-size: 30px;
-    margin-left: 10px;
-  }
-
-  .latest-funding p a {
-    color: red;
-  }
-
   .fund-a {
     display: flex;
     justify-content: center;
@@ -338,18 +369,6 @@
   .latest-funding .see-more a {
     color: red;
     font-size: 20px;
-  }
-
-  .latest-funding p span {
-    display: none;
-  }
-
-  .box-a img {
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    top: 15px;
-    left: 25px;
   }
 
   .box-a .fund-2 {
@@ -439,6 +458,14 @@
     font-weight: 500;
   }
 
+  .p-1 p:hover {
+    text-decoration: underline;
+  }
+
+  .lt-deals p:hover {
+    color: black;
+  }
+
   .gear-a .mp-1 div p {
     font-size: 26px;
     margin-bottom: 10px;
@@ -467,11 +494,6 @@
     line-height: 1.5;
   }
 
-  .latest .lt-small img {
-    height: 100px;
-    width: 100px;
-  }
-
   .latest div ul li {
     color: #333;
   }
@@ -479,10 +501,6 @@
   .latest div ul li:hover {
     cursor: pointer;
     color: black;
-  }
-
-  .p-1 p:hover {
-    text-decoration: underline;
   }
 
   /* How to set UL lists after browser resset */
@@ -500,11 +518,6 @@
     margin-left: -8px;
   }
 
-  .mp-1 img {
-    width: 100%;
-    height: 400px;
-  }
-
   .latest {
     height: 300px;
     width: 100%;
@@ -520,10 +533,6 @@
     width: 100%;
   }
 
-  .lt-deals p:hover {
-    color: black;
-  }
-
   .containers-latest-deals {
     display: flex;
     justify-content: flex-start;
@@ -532,23 +541,8 @@
     font-weight: 900;
   }
 
-  .containers-latest-deals img {
-    height: 80px;
-    width: 80px;
-    margin: 10px;
-  }
-
-  .containers-latest-deals div {
-    margin-top: 10px;
-    line-height: 1.3;
-  }
-
   .containers-latest-deals h2 {
     color: lightgray;
-  }
-
-  .containers-latest-deals div span {
-    text-decoration: line-through;
   }
 
   /* Footer section */
@@ -572,6 +566,7 @@
     height: 45px;
     margin: 0 35px;
   }
+
   .ft-1a .s-icon {
     font-size: 20px;
     color: white;
@@ -603,7 +598,7 @@
   }
 
   .bt-footer {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -614,26 +609,28 @@
   }
 
   .bt-footer-2 {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    background-color: #000;
+    line-height: 1.4;
   }
 
-  .bt-footer p {
-    margin: 0 65px;
-    color: #aaa;
-  }
-
-  .bt-footer .red {
+  .bt-footer-2 .red {
     color: red;
   }
 
-  .bt-footer .ft-img-1 {
+  .bt-footer-2 .ft-img-1 {
     margin-bottom: -15px;
     height: 40px;
     width: 30px;
     color: red;
   }
 
-  .bt-footer .ft-img-2 {
+  .bt-footer-2 .ft-img-2 {
     height: 10px;
     width: 80px;
   }
