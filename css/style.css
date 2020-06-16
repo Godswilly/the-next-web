@@ -1,0 +1,33 @@
+html {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+  font-size: 62.5%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* Utilities */
+
+.hd-color {
+	color: #f42;
+	font-size: 27px;
+	font-weight: 800;
+}
+
+.hd-color-only {
+	color: #f42; 
+}
+
+.hd-color:hover {
+	color: black;
+}
+
+.containers-latest-deals p:hover {
+	cursor: pointer;
+	color: #f42;
+}
+
