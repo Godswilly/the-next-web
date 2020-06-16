@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   @media screen and (max-width: 900px) {
     .box-a-hide {
       display: none;
@@ -239,7 +239,7 @@
     position: absolute;
     top: 1rem;
     right: 1.7rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .box-a h2 {
@@ -268,22 +268,22 @@
 
   .main-grid .box1 div h2 {
     position: absolute;
-    top: 8rem;
-    left: 3rem;
+    top: 63%;
+    left: 2.5%;
     font-size: 1.3rem;
   }
 
   .main-grid .box1 div .content-2 {
     position: absolute;
-    top: 10rem;
-    left: 3rem;
+    top: 70%;
+    left: 2.5%;
     font-size: 1.8rem;
   }
 
   .main-grid .box1 div .content-3 {
     position: absolute;
-    bottom: 3rem;
-    left: 3rem;
+    bottom: 10%;
+    left: 2.5%;
     font-size: 1rem;
   }
 
@@ -302,6 +302,7 @@
     margin-left: 3rem;
     opacity: 0.7;
     position: absolute;
+    display: none;
     top: 0;
   }
 
@@ -321,8 +322,8 @@
 
   .main-grid .box2 p {
     position: absolute;
-    top: 5rem;
-    margin-left: 0.8rem;
+    top: 60%;
+    margin-left: 2.5%;
     font-size: 1.3rem;
     color: white;
   }
@@ -342,17 +343,17 @@
 
   .main-grid .box3 p {
     position: absolute;
-    bottom: 5rem;
+    bottom: 25%;
     font-size: 1.3rem;
     color: white;
-    margin-left: 2rem;
+    margin-left: 2.5%;
   }
 
   .main-grid .box3 .time {
     font-size: 1rem;
     position: absolute;
-    bottom: 2rem;
-    margin-left: 2rem;
+    bottom: 10%;
+    margin-left: 2.5%;
   }
 
   /* Sub-section Header */
