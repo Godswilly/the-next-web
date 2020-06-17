@@ -532,6 +532,23 @@ a {
     counter-reset: li;
   }
 
+  .containers-latest-deals h2 {
+    color: lightgray;
+  }
+
+  .main-grid .box1 div h2 {
+    position: absolute;
+    top: 40%;
+    left: 2.5%;
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 768px) {
+    .main-grid .box1 div h2 {
+      display: none;
+    }
+  }
+
   .latest li::before {
     content: "•";
     color: #f42;
@@ -563,10 +580,6 @@ a {
     font-weight: 900;
   }
 
-  .containers-latest-deals h2 {
-    color: lightgray;
-  }
-
   footer {
     height: 300px;
     width: 100%;
@@ -582,6 +595,7 @@ a {
 
   .ft-1a {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 45px;
     margin: 0 35px;
@@ -611,6 +625,27 @@ a {
     margin: 0 50px;
     color: white;
     font-size: 12px;
+  }
+
+  @media (max-width: 460px) {
+    .ft-1a {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 50px;
+      margin: auto auto;
+    }
+
+    .ft-1b {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      margin: 0 50px;
+      color: white;
+      font-size: 12px;
+      margin-top: auto auto;
+    }
   }
 
   .ft-1b:hover {
@@ -840,8 +875,7 @@ a {
         rgba(255, 31, 42, 0.7) 0%,
         rgba(0, 0, 0, 0.9) 100%
       ),
-      url("images/trump-tweets.png")
-      no-repeat;
+      url("images/trump-tweets.png") no-repeat;
   }
 
   .containers-latest-deals div {
@@ -936,7 +970,7 @@ a {
         rgba(255, 31, 42, 0.7) 0%,
         rgba(0, 0, 0, 0.9) 100%
       ),
-      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg")
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/Untitled-design-66-796x417.png")
       no-repeat;
   }
 
@@ -1478,8 +1512,7 @@ a {
         rgba(255, 31, 42, 0.7) 0%,
         rgba(0, 0, 0, 0.9) 100%
       ),
-      url("images/trump-tweets.png")
-      no-repeat;
+      url("images/trump-tweets.png") no-repeat;
   }
 
   .containers-latest-deals div {
