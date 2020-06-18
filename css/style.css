@@ -32,7 +32,7 @@ a {
 }
 
 .bt-footer p {
-  margin: 0 50px;
+  margin: 0 30px;
   color: #aaa;
 }
 
@@ -608,8 +608,8 @@ footer {
   font-size: 20px;
   color: white;
   background-color: #333;
-  height: 35px;
-  width: 35px;
+  height: 26px;
+  width: 26px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -625,9 +625,9 @@ footer {
   display: flex;
   justify-content: center;
   height: 50px;
-  margin: 0 50px;
+  margin: 0 60px;
   color: white;
-  font-size: 12px;
+  font-size: 11px;
   margin-top: auto auto;
 }
 
