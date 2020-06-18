@@ -16,7 +16,7 @@ Project Design Screenshot : ![Project Design](images/thenextweb-project.JPG)
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Godswilly/the-next-web/94cb63a9b41bc30cd10ea599f4d7cbf92977c3bc/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Godswilly/the-next-web/e0cd6cf04da896e7b532e0f89a75c8e5c538a7e0/index.html)
 
 ## Getting started
 **We cloned The Next Web. The main aim was to make the website responsive in devices of different screen sizes.The elements get placed and styled roughly the same way as the source, so functionality is not a priority.**
