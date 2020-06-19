@@ -457,6 +457,10 @@ main {
   box-sizing: border-box;
 }
 
+.gear-a .latest div ul li {
+  border-bottom: lightgrey solid 1px;
+}
+
 .gear-a h2 {
   display: flex;
   align-items: center;
@@ -1575,8 +1579,6 @@ footer {
     line-height: 1.3;
     width: 100%;
   }
-
-  /* *****************************DESIGN BOX 1 MAIN GRID***************************************************** */
 
   .main-grid .box1 .news-top {
     display: flex;
