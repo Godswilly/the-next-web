@@ -457,6 +457,19 @@ main {
   box-sizing: border-box;
 }
 
+.ft-1a li {
+  margin: 0 7px;
+}
+
+.ft-1b li {
+  margin: 0 4px;
+}
+
+.latest div ul li {
+  color: #333;
+  line-height: 1.3;
+}
+
 .gear-a .latest div ul li {
   border-bottom: lightgrey solid 1px;
 }
@@ -524,19 +537,6 @@ main {
 
 .latest .lt-small .p-1 > * {
   line-height: 1.5;
-}
-
-.ft-1a li {
-  margin: 0 7px;
-}
-
-.ft-1b li {
-  margin: 0 4px;
-}
-
-.latest div ul li {
-  color: #333;
-  line-height: 1.3;
 }
 
 .latest div ul li:hover {
